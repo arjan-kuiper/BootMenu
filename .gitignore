@@ -2,3 +2,4 @@
 cmake-build-debug/
 bootloader.bin
 CMakeLists.txt
+compile_and_run.bat
