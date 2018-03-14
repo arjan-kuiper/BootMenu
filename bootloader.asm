@@ -96,7 +96,6 @@ show_menu:
     mov ch, [MENU_INDEX]            ; Set the start row to the current menu item's index
     mov cl, 0x0                     ; Set the start column to zero
     mov dh, [MENU_INDEX]            ; Set the end row to the current menu item's index
-    ;mov dl, 0x184f                  ; Set the end column to the end of the screen TODO: Bedoel je hier niet dx ?
     mov dx, 0x184f                  ; Set the end column to the end of the screen
     mov bh, 0xf0                    ; Set white on black
     int 0x10                        ; Call video interrupt
